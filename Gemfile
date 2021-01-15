@@ -19,6 +19,9 @@ gem 'puma', '~> 5.0'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
+# HTTP requests
+gem 'httparty', '~> 0.13.7'
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
 
@@ -42,6 +45,8 @@ group :test do
   gem 'shoulda-matchers', '~> 4.5.0'
   gem 'faker'
   gem 'database_cleaner'
+  gem 'sinatra'
+  gem 'webmock', '~> 2.1'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
