@@ -4,6 +4,8 @@
 
 Artemis is an API service that connects to social networks.
 
+To test visit `http://localhost:3000/api/v1/social-networks`.
+
 ## Installation & Run
 
 
